@@ -14,7 +14,7 @@ const Quiz=({data,name,score,setScore,setData,setQues1,setQues2,setQues3,setQues
         <>
         <div className="quizInfo">
             <span>Difficulty Level: {data[currQues].difficulty}</span>
-            <span>Score : {score}</span>
+            <span>Markes Allocated : {data[currQues].marksallocated}</span>
         </div>
         <Question
             currQues={currQues}
