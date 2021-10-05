@@ -133,8 +133,13 @@ a{
     width: 100%;
     justify-content: space-around;
   }
-  
- 
+
+  .input{
+    margin-left: 10px;
+  }
+  .button{
+    width:100px;
+  }
   .result {
     display: flex;
     flex-direction: column;
