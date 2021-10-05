@@ -79,7 +79,6 @@ const Question = ({
             variant="contained"
             color="secondary"
             size="large"
-            style={{ width: 185 }}
             href="/"
             onClick={() => handleQuit()}
           >
@@ -89,9 +88,7 @@ const Question = ({
             variant="contained" 
             color="info"
             size="large"
-            style={{ width: 185 }}
             onClick={()=>handleCheck(answer)}
-            
           >
             Save
           </Button>
@@ -99,9 +96,7 @@ const Question = ({
             variant="contained"
             color="primary"
             size="large"
-            style={{ width: 185 }}
             onClick={handleBack}
-            
           >
             Back
           </Button>
@@ -109,9 +104,7 @@ const Question = ({
             variant="contained"
             color="primary"
             size="large"
-            style={{ width: 185 }}
             onClick={handleNext}
-            
           >
             {currQues == 3 ? "Submit" : "Next Question"}
           </Button>
